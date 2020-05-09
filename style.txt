@@ -1,0 +1,43 @@
+<style>
+* {
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont“Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+ “Fira Sans”, “Droid Sans”, “Helvetica Neue”,sans-serif;  
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  background: hsl(350, 50%, 50%);
+  padding: 1.3rem;
+  color: hsl(350, 50%, 10%);
+}
+.container{
+  flex: 1;
+  background:hsl(350, 50%, 95%);
+  padding: 1rem;
+}
+p.content{
+  padding: 0.7rem;
+  font-size: 0.7rem;
+  color: hsl(350, 50%, 50%);
+}
+.container h2.title{
+  padding: 1rem;
+  color: hsl(350, 50%, 20%);
+}
+footer{
+  background: hsl(350, 93%, 88%);
+  padding: 1rem;
+}
+input[type=button] {
+  color:hsl(350, 50%, 20%);
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+</style>
